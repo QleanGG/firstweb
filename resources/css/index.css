@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(221, 241, 248);
+}
+
+.banner {
+    background-image: url("../images/Kazuyagameplay.jpg");
+    background-size: 1800px 1000px;
+    color: azure;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0px;
+    font-family: 'Phudu', cursive;
+    z-index: 1
+}
+#kazuya-banner {
+    height: 200px;
+    width: 200px;
+    filter: drop-shadow(1px 1px 1px black);
+    z-index: 2;
+}
+
+#kazuyer{
+    color: #915A60;
+    font-size: 100px;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+span{
+    font-family: 'Phudu', cursive;
+}
+.mid{
+    text-align: center;
+}
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2
+}
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar a {
+    font-weight: bold;
+    text-decoration: none;
+    color: blueviolet;
+}
+.Qleaner-section{
+    padding: 20px 50px;
+}
+.avatar {
+    background-image: url('../images/fistqlean.jpg');
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 10px;
+}
+#fist ul{
+    list-style: none;
+}
